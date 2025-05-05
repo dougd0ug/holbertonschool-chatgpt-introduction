@@ -7,3 +7,6 @@ def factorial(n):
         result *= n
         n -= 1
     return result
+
+f = factorial(int(sys.argv[1]))
+print(f)
